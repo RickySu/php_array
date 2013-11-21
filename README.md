@@ -9,7 +9,7 @@ A port of [php array functions][phparray] to [Dart][dart].
 ## Functions finished.
 
 * array_change_key_case
-
+* array_chunk
 
 
 [dart]: http://www.dartlang.org/
