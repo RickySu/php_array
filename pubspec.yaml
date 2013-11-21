@@ -1,0 +1,6 @@
+name: php_array
+version: 0.1.0
+author: Ricky Su
+description: A port of php array functions to dart.
+dependencies:
+  unittest: any
