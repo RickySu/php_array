@@ -1,11 +1,7 @@
 part of php_array;
 
-array_chunk ( var array,  int size, [bool preserve_keys ] ){
-  
-  if(preserve_keys == null){
-    preserve_keys = false;
-  }
-  
+array_chunk ( var array,  int size, [bool preserve_keys = false] ){
+    
   if(!(array is Map) && !(array is List)){
     throw new FormatException("input is not a map or list!");
   }     

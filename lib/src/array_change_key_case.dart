@@ -3,12 +3,8 @@ part of php_array;
 const CASE_UPPER = 0;
 const CASE_LOWER = 1;
 
-array_change_key_case ( var array, [ int keyCase ] ){
-  
-  if(keyCase == null){
-    keyCase = CASE_LOWER;
-  }
-  
+array_change_key_case ( var array, [ int keyCase = CASE_LOWER ] ){
+    
   if(array is List){
     return new List.from(array);
   }
