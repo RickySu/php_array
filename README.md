@@ -10,7 +10,7 @@ A port of [php array functions][phparray] to [Dart][dart].
 
 * array_change_key_case
 * array_chunk
-
+* array_column
 
 [dart]: http://www.dartlang.org/
 
