@@ -27,12 +27,11 @@ main(){
     }    
   ];  
   test("array_column()", (){
-    var expactList=['value11', 'value21', 'value31', 'value41'];
-    print(array_column(testCaseList, 'c1'));
+    var expactList=['value11', 'value21', 'value31', 'value41'];    
     expect(array_column(testCaseList, 'c1'), expactList);    
   });
 
-  test("array_chunk() with index_key", (){
+  test("array_column() with index_key", (){
     var expactList={10: 'value11', 20: 'value21', 30: 'value31', 40: 'value41'};    
     expect(array_column(testCaseList, 'c1', 'id'), expactList);    
   });

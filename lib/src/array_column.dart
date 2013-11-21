@@ -1,6 +1,6 @@
 part of php_array;
 
-array_column ( var array,  var column_key, [bool index_key] ){
+array_column ( var array,  var column_key, [var index_key] ){
   
   if(!(array is Map) && !(array is List)){
     throw new FormatException("input is not a map or list!");
