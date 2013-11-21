@@ -1,6 +1,7 @@
 name: php_array
-version: 0.1.0
-author: Ricky Su
+version: 0.0.1
+author: Ricky Su <ricky@e2.us>
 description: A port of php array functions to dart.
+homepage: https://github.com/RickySu/php_array
 dependencies:
   unittest: any
