@@ -12,6 +12,7 @@ A port of [php array functions][phparray] to [Dart][dart].
 * array_chunk
 * array_column
 * array_combine
+* array_count_values
 
 [dart]: http://www.dartlang.org/
 
