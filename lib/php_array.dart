@@ -6,6 +6,7 @@ part "src/array_column.dart";
 part "src/array_combine.dart";
 part "src/array_count_values.dart";
 part "src/array_diff_assoc.dart";
+part "src/array_diff_key.dart";
 
 
 
