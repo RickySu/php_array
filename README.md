@@ -13,8 +13,11 @@ A port of [php array functions][phparray] to [Dart][dart].
 * array_column
 * array_combine
 * array_count_values
-* array_array_diff_assoc
+* array_diff_assoc
 * array_diff_key
+* array_diff_uassoc
+* array_diff_ukey
+
 
 [dart]: http://www.dartlang.org/
 
